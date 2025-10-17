@@ -9,28 +9,28 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
+    image: "/Rohit Jha.png",
     name: "Rohit Jha",
     position: "CEO | Software Engineer",
     message:
       "Sudip's technical expertise and problem-solving abilities are exceptional. His work on our mobile application exceeded our expectations, delivering a robust solution that perfectly met our business requirements.",
   },
   {
-    image: "/t-avt-2.png",
+    image: "/Aayusha.jpeg",
     name: "Aayusha Regmi",
     position: "Software Engineer",
     message:
       "Working alongside Sudip has been an incredible learning experience. His knowledge of Flutter and modern development practices helped elevate our entire team's capabilities and project quality.",
   },
   {
-    image: "/t-avt-3.png",
+    image: "/Roshani Jha.jpg",
     name: "Roshani Jha",
     position: "Founder Of BisKIRAN TECHNOLOGIES",
     message:
       "Sudip delivered outstanding results for our technology solutions. His expertise in cloud computing and web development helped us build scalable applications that drive our business forward.",
   },
   {
-    image: "/t-avt-1.png",
+    image: "/avatar.png",
     name: "Daya Shankar Prajapati",
     position: "CEO Sona Consolidate",
     message:
@@ -55,13 +55,23 @@ const TestimonialSlider = () => {
             <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
               <div className="flex flex-col justify-center text-center">
                 {/* avatar */}
-                <div className="mb-2 mx-auto">
-                  <Image
-                    src={person.image}
-                    width={100}
-                    height={100}
-                    alt={person.name}
-                  />
+                <div className="mb-4 mx-auto relative">
+                  <div className="relative w-24 h-24 xl:w-28 xl:h-28">
+                    {/* Gradient border ring */}
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-accent via-purple-400 to-accent p-1 animate-pulse">
+                      <div className="w-full h-full rounded-full bg-primary/90 flex items-center justify-center">
+                        <Image
+                          src={person.image}
+                          width={120}
+                          height={120}
+                          alt={person.name}
+                          className="rounded-full object-cover w-full h-full border-2 border-white/10"
+                        />
+                      </div>
+                    </div>
+                    {/* Glowing effect */}
+                    <div className="absolute inset-0 rounded-full bg-accent/20 blur-xl animate-pulse"></div>
+                  </div>
                 </div>
 
                 {/* name */}
