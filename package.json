@@ -1,0 +1,68 @@
+{
+  "name": "sudip-koirala-portfolio",
+  "version": "1.0.1",
+  "private": true,
+  "author": {
+    "name": "Sudip Koirala",
+    "email": "officialsudip44@gmail.com",
+    "url": "https://www.sudipkoirala44.com.np"
+  },
+  "description": "Sudip Koirala is a Mobile Application Developer & Web Developer specializing in Flutter, PHP, and Cloud Computing.",
+  "keywords": [
+    "react",
+    "next",
+    "nextjs",
+    "html",
+    "css",
+    "javascript",
+    "js",
+    "modern-ui",
+    "modern-ux",
+    "portfolio",
+    "framer-motion",
+    "3d-website",
+    "particle-effect"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudipkoirala/sudip-portfolio.git"
+  },
+  "homepage": "https://www.sudipkoirala44.com.np",
+  "bugs": {
+    "url": "https://github.com/sudipkoirala/sudip-portfolio/issues",
+    "email": "officialsudip44@gmail.com"
+  },
+  "funding": [
+    {
+      "type": "email",
+      "url": "mailto:officialsudip44@gmail.com"
+    }
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.4.4",
+    "framer-motion": "^10.12.16",
+    "next": "14.1.1",
+    "react": "18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-tsparticles": "^2.9.3",
+    "swiper": "^9.4.0",
+    "tailwind-scrollbar": "^3.0.4",
+    "tsparticles": "^2.9.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
