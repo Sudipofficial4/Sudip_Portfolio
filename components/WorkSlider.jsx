@@ -15,22 +15,22 @@ const workSlides = {
         {
           title: "Flutter Food Delivery App",
           path: "/thumb1.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
         {
           title: "AI-Powered Chatbot",
           path: "/thumb2.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
         {
           title: "Travel App with Maps API",
           path: "/thumb3.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
         {
           title: "Payment Gateway Integration",
           path: "/thumb4.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
       ],
     },
@@ -39,22 +39,22 @@ const workSlides = {
         {
           title: "PHP Web Application",
           path: "/thumb4.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
         {
           title: "Django Backend API",
           path: "/thumb1.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
         {
           title: "Firebase Cloud App",
           path: "/thumb2.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
         {
           title: "Cross-platform Mobile App",
           path: "/thumb3.jpg",
-          link: "https://github.com/sudipkoirala",
+          link: "https://github.com/Sudipofficial4",
         },
       ],
     },
