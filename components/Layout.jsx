@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
         <div className="container mx-auto py-2 px-4">
           <p className="text-center text-xs text-white/70">
             Powered By{" "}
-            <span className="text-accent font-semibold">BisKIRAN TECHNOLOGIES</span>
+            <span className="text-accent font-semibold">Sudip Koirala</span>
             {" "} | All Rights Reserved To{" "}
             <span className="text-accent font-semibold">Sudip Koirala</span>
           </p>
